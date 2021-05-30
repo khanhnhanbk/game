@@ -112,7 +112,7 @@ class Game:
                 self.man.pos = [100, 400]
                 self.man.left = False
                 if self.man.dam > 100:
-                    self.man.dam / 1.2
+                    self.man.dam / 1.4
                 self.man.health *= 1.5
                 if self.man.health > self.man.maxHealth:
                     self.man.health = self.man.maxHealth
